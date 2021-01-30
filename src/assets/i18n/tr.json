@@ -1,0 +1,13 @@
+{
+  "HOME": {
+    "TITLE": "Merhaba Arkadaşlar bu bir ngx-translate demosudur",
+    "TEXT": "Angularda dil eklemek veya değiştirmek için kullanılır. Aşağıda bir form örneği eşliğinde verilmiştir.",
+
+    "SELECT": "Dil Seçin"
+  },
+  "BOTTOM": {
+    "NAME": "İsim",
+    "PHONE": "Telefon",
+    "MSG": "Mesaj"
+  }
+}

@@ -1,0 +1,26 @@
+<div>
+    <h1>{{'HOME.TITLE' | translate}}</h1>
+    <p>{{'HOME.TEXT' | translate}}</p>
+
+  <form class="go-bottom">
+    <div>
+      <input id="name" name="name" type="text" required>
+      <label for="name">{{'BOTTOM.NAME'|translate}}</label>
+    </div>
+    <div>
+      <input id="phone" name="phone" type="tel" required>
+      <label for="phone">{{'BOTTOM.PHONE'|translate}}</label>
+    </div>
+    <div>
+      <textarea id="message" name="phone" required></textarea>
+      <label for="message">{{'BOTTOM.MSG'|translate}}</label>
+    </div>
+  </form>
+
+  <label for="">
+    <p>{{'HOME.SELECT' | translate}}</p>
+    <select #langselect (change)="translate.use(langselect.value)" class="select-css">
+      <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
+    </select>
+  </label>
+</div>

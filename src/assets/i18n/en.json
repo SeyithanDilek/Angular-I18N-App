@@ -1,0 +1,12 @@
+{
+  "HOME": {
+    "TITLE": "Hello Guys this is a ngx-translate demo",
+    "TEXT": "This demo has been created using Angular.It is provided below with an example form.",
+    "SELECT": "Select Language"
+  },
+  "BOTTOM": {
+    "NAME": "Name",
+    "PHONE": "Phone",
+    "MSG": "Message"
+  }
+}
